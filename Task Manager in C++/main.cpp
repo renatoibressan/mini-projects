@@ -21,7 +21,7 @@ int main() {
     string descricao;
     int id;
     const string nomeArquivo = "tasks.txt";
-    while (option != 0) {
+    while (true) {
         option = -1;
         cout << "=== MENU ===" << endl;
         cout << 1 << " - Adicionar tarefa" << endl;
@@ -133,7 +133,7 @@ int main() {
             case 0:
                 clearScreen();
                 cout << "Encerrando o programa..." << endl;
-                break;
+                return 0;
             default:
                 clearScreen();
                 cout << "Opcao invalida!" << endl;
