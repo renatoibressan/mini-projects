@@ -1,0 +1,4 @@
+1|Estudar|0
+2|Ler|0
+3|Programar|0
+4|Treinar|0
